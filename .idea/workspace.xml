@@ -1,7 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b9407fb5-f60d-4e36-b478-674400240575" name="Default Changelist" comment="" />
+    <list default="true" id="b9407fb5-f60d-4e36-b478-674400240575" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/qameta/allure/model/Allure2ModelJackson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/qameta/allure/model/Attachment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/qameta/allure/model/ExecutableItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/qameta/allure/model/FixtureResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/qameta/allure/model/Label.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/qameta/allure/model/Link.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/qameta/allure/model/Parameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/qameta/allure/model/Stage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/qameta/allure/model/StageDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/qameta/allure/model/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/qameta/allure/model/StatusDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/qameta/allure/model/StatusDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/qameta/allure/model/StepResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/qameta/allure/model/TestResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/qameta/allure/model/TestResultContainer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/qameta/allure/model/TestRunResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/qameta/allure/model/WithAttachments.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/qameta/allure/model/WithLinks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/qameta/allure/model/WithParameters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/io/qameta/allure/model/WithStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/frunoman/model_pojo/Allure2ModelJackson.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/frunoman/model_pojo/Attachment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/frunoman/model_pojo/ExecutableItem.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/frunoman/model_pojo/FixtureResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/frunoman/model_pojo/Label.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/frunoman/model_pojo/Link.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/frunoman/model_pojo/ObjectFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/frunoman/model_pojo/Parameter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/frunoman/model_pojo/Stage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/frunoman/model_pojo/StageDeserializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/frunoman/model_pojo/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/frunoman/model_pojo/StatusDeserializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/frunoman/model_pojo/StatusDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/frunoman/model_pojo/StepResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/frunoman/model_pojo/TestResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/frunoman/model_pojo/TestResultContainer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/frunoman/model_pojo/TestRunResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/frunoman/model_pojo/WithAttachments.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/frunoman/model_pojo/WithLinks.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/frunoman/model_pojo/WithParameters.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/frunoman/model_pojo/WithStatus.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/frunoman/model_pojo/WithStatusDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/frunoman/model_pojo/WithSteps.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/frunoman/model_pojo/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/frunoman/model_pojo/Allure2ModelJackson.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/frunoman/model_pojo/Attachment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/frunoman/model_pojo/ExecutableItem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/frunoman/model_pojo/FixtureResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/frunoman/model_pojo/Label.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/frunoman/model_pojo/Link.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/frunoman/model_pojo/ObjectFactory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/frunoman/model_pojo/Parameter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/frunoman/model_pojo/Stage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/frunoman/model_pojo/StageDeserializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/frunoman/model_pojo/Status.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/frunoman/model_pojo/StatusDeserializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/frunoman/model_pojo/StatusDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/frunoman/model_pojo/StepResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/frunoman/model_pojo/TestResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/frunoman/model_pojo/TestResultContainer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/frunoman/model_pojo/TestRunResult.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/frunoman/model_pojo/WithAttachments.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/frunoman/model_pojo/WithLinks.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/frunoman/model_pojo/WithParameters.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/frunoman/model_pojo/WithStatus.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/frunoman/model_pojo/WithStatusDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/frunoman/model_pojo/WithSteps.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/github/frunoman/model_pojo/package-info.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,77 +85,119 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/frunoman/model_pojo/WithParameters.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/frunoman/model_pojo/Link.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/frunoman/model_pojo/package-info.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/frunoman/model_pojo/ObjectFactory.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/frunoman/model_pojo/WithStatus.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/frunoman/model_pojo/Allure2ModelJackson.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/frunoman/model_pojo/TestResult.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/qameta/allure/model/StatusDetails.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+            <state relative-caret-position="759">
+              <caret line="148" selection-start-line="148" selection-end-line="148" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/frunoman/model_pojo/ExecutableItem.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/frunoman/model_pojo/Status.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/qameta/allure/model/StepResult.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+            <state relative-caret-position="45">
+              <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#268#300#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/qameta/allure/model/TestResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="759">
+              <caret line="593" selection-start-line="593" selection-end-line="593" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#303#387#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/qameta/allure/model/TestResultContainer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="759">
+              <caret line="419" selection-start-line="419" selection-end-line="419" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#205#250#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/qameta/allure/model/TestRunResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="759">
+              <caret line="84" selection-start-line="84" selection-end-line="84" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/qameta/allure/model/WithAttachments.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/qameta/allure/model/WithLinks.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/qameta/allure/model/WithParameters.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/qameta/allure/model/WithStatus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/io/qameta/allure/model/WithStatusDetails.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -89,9 +205,31 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/frunoman/model_pojo/ExecutableItem.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Testing.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/frunoman/model_pojo/TestResult.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/qameta/allure/model/Allure2ModelJackson.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/qameta/allure/model/Attachment.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/qameta/allure/model/ExecutableItem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/qameta/allure/model/FixtureResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/qameta/allure/model/Label.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/qameta/allure/model/Link.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/qameta/allure/model/Parameter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/qameta/allure/model/Stage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/qameta/allure/model/StageDeserializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/qameta/allure/model/Status.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/qameta/allure/model/StatusDeserializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/qameta/allure/model/StatusDetails.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/qameta/allure/model/StepResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/qameta/allure/model/TestResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/qameta/allure/model/TestResultContainer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/qameta/allure/model/TestRunResult.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/qameta/allure/model/WithAttachments.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/qameta/allure/model/WithLinks.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/qameta/allure/model/WithParameters.java" />
+        <option value="$PROJECT_DIR$/src/main/java/io/qameta/allure/model/WithStatus.java" />
       </list>
     </option>
   </component>
@@ -103,9 +241,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="-2" />
-    <option name="width" value="1920" />
-    <option name="height" value="1082" />
+    <option name="x" value="1987" />
+    <option name="y" value="25" />
+    <option name="width" value="1853" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -113,6 +252,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -138,18 +278,32 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="allure-pojo-model" type="b2602c69:ProjectViewProjectNode" />
+              <item name="allure-pojo-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="allure-pojo-model" type="b2602c69:ProjectViewProjectNode" />
+              <item name="allure-pojo-model" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
@@ -174,7 +328,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="allure-pojo-model" />
@@ -182,9 +336,47 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Testing" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="allure-pojo-model" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Testing" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Testing.aut (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="allure-pojo-model" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Testing" />
+      <option name="METHOD_NAME" value="aut" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Testing.aut" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="allure-pojo-model" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Testing" />
+      <option name="METHOD_NAME" value="aut" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="TestNG.Testing.aut (1)" />
+        <item itemvalue="TestNG.Testing.aut" />
+        <item itemvalue="TestNG.Testing" />
       </list>
     </recent_temporary>
   </component>
@@ -199,47 +391,73 @@
       <option name="presentableId" value="Default" />
       <updated>1561555482221</updated>
     </task>
+    <task id="LOCAL-00001" summary="create pojo model">
+      <created>1561555893685</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1561555893685</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Testing - 2019.06.27 at 13h 24m 21s.xml">
+      <configuration name="Testing" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Testing - 2019.06.27 at 13h 24m 52s.xml">
+      <configuration name="Testing" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Testing_aut_(1) - 2019.06.27 at 13h 52m 31s.xml">
+      <configuration name="Testing.aut (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Testing_aut_(1) - 2019.06.27 at 13h 52m 48s.xml">
+      <configuration name="Testing.aut (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Testing_aut_(1) - 2019.06.27 at 13h 53m 04s.xml">
+      <configuration name="Testing.aut (1)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="Testing_aut_(1) - 2019.06.27 at 13h 53m 22s.xml">
+      <configuration name="Testing.aut (1)" configurationId="TestNG" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-2" width="1920" height="1082" extended-state="6" />
+    <frame x="1987" y="25" width="1853" height="1055" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2497332" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23962368" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3297414" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32963374" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33962265" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32963374" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="create pojo model" />
+    <option name="LAST_COMMIT_MESSAGE" value="create pojo model" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="623">
-          <caret line="79" column="12" selection-start-line="79" selection-start-column="12" selection-end-line="79" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/frunoman/model_pojo/Parameter.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -264,15 +482,16 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/frunoman/model_pojo/Allure2ModelJackson.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/frunoman/model_pojo/ExecutableItem.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Testing.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/frunoman/model_pojo/TestResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="45" column="13" selection-start-line="45" selection-start-column="13" selection-end-line="45" selection-end-column="13" />
+        <state relative-caret-position="72">
+          <caret line="63" column="32" selection-start-line="63" selection-start-column="26" selection-end-line="63" selection-end-column="32" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/frunoman/model_pojo/ExecutableItem.java">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/frunoman/model_pojo/Status.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -281,19 +500,249 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/dependency-reduced-pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.6/httpclient-4.5.6.jar!/org/apache/http/impl/client/DefaultHttpClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/Base64.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="78" column="12" selection-start-line="78" selection-start-column="12" selection-end-line="78" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="12285">
+          <caret line="872" column="16" selection-start-line="872" selection-start-column="16" selection-end-line="872" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1620">
+          <caret line="108" column="1" selection-start-line="108" selection-start-column="1" selection-end-line="112" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
+        <state relative-caret-position="375">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/qameta/allure/model/Attachment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/qameta/allure/model/Allure2ModelJackson.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="3" lean-forward="true" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#440#487#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/qameta/allure/model/ExecutableItem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3459">
+          <caret line="434" selection-start-line="434" selection-end-line="434" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#281#326#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/qameta/allure/model/FixtureResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2700">
+          <caret line="214" selection-start-line="214" selection-end-line="214" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#278#310#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/qameta/allure/model/Label.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/qameta/allure/model/Link.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/qameta/allure/model/Parameter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="73" selection-start-line="73" selection-end-line="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/qameta/allure/model/Stage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/qameta/allure/model/StageDeserializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/qameta/allure/model/Status.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/qameta/allure/model/StatusDeserializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/qameta/allure/model/StatusDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="148" selection-start-line="148" selection-end-line="148" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/qameta/allure/model/StepResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+          <folding>
+            <element signature="e#268#300#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/qameta/allure/model/TestResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="593" selection-start-line="593" selection-end-line="593" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#303#387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/qameta/allure/model/TestResultContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="419" selection-start-line="419" selection-end-line="419" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#205#250#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/qameta/allure/model/TestRunResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="759">
+          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/qameta/allure/model/WithAttachments.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/qameta/allure/model/WithLinks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/qameta/allure/model/WithParameters.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/qameta/allure/model/WithStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/io/qameta/allure/model/WithStatusDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
@@ -311,6 +760,19 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>allure-pojo-model</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

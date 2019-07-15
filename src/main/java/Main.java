@@ -1,5 +1,5 @@
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.github.frunoman.model_pojo.TestResult;
+import io.qameta.allure.model.TestResult;
 
 import java.io.File;
 import java.io.IOException;
@@ -23,7 +23,7 @@ public class Main {
             }
 
         }
-        System.out.println(testResultsList);
+        System.out.println(testResultsList.get(0).getUuid());
     }
 }
 
