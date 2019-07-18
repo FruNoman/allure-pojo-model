@@ -6,6 +6,7 @@ import com.fasterxml.jackson.databind.deser.std.StdDeserializer;
 
 import java.io.IOException;
 
+import java8.util.function.Predicate;
 import java8.util.stream.RefStreams;
 import java8.util.stream.Stream;
 
@@ -21,7 +22,12 @@ public class StageDeserializer extends StdDeserializer<Stage> {
     public Stage deserialize(final JsonParser p, final DeserializationContext ctxt) throws IOException {
         final String value = p.readValueAs(String.class);
         return RefStreams.of(Stage.values())
-                .filter(status -> status.value().equalsIgnoreCase(value))
+                .filter(new Predicate<Stage>() {
+                    @Override
+                    public boolean test(Stage stage) {
+                        return stage.value().equalsIgnoreCase(value);
+                    }
+                })
                 .findAny()
                 .orElse(null);
     }

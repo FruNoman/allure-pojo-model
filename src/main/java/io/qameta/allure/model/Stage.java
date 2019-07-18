@@ -7,11 +7,11 @@ import com.fasterxml.jackson.annotation.JsonValue;
  */
 public enum Stage {
 
-    SCHEDULED("scheduled"),
-    RUNNING("running"),
-    FINISHED("finished"),
-    PENDING("pending"),
-    INTERRUPTED("interrupted");
+    scheduled("scheduled"),
+    running("running"),
+    finished("finished"),
+    pending("pending"),
+    interrupted("interrupted");
 
     private final String value;
 

@@ -7,10 +7,10 @@ import com.fasterxml.jackson.annotation.JsonValue;
  */
 public enum Status {
 
-    FAILED("failed"),
-    BROKEN("broken"),
-    PASSED("passed"),
-    SKIPPED("skipped");
+    failed("failed"),
+    broken("broken"),
+    passed("passed"),
+    skipped("skipped");
 
     private final String value;
 
